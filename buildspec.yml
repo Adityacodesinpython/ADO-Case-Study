@@ -9,3 +9,6 @@ phases:
 artifacts:
   files:
     - index.html
+    - appspec.yml
+    - scripts/**/*  # Include the entire scripts directory
+  discard-paths: no  # Important! Maintains directory structure
